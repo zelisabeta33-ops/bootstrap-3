@@ -128,3 +128,36 @@
 .gallery-block .p-subtitle{
     margin-bottom: 40px;
 }
+
+.citat-bg{
+    background-color: #64cbc0;
+    padding: 140px 0;
+}
+.citat-block p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    width: 100%;
+    max-width: 470px;
+    margin: 50px 0 55px;
+}
+.citat-block h5{
+    font-weight: 700;
+    font-size: 18px;
+    margin: 30px 0 15px;
+    opacity: 0.905;
+}
+.citat-block span{
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+.contact-bg{
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact-item{
+    background-color: #59647d;
+}
