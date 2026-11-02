@@ -3,6 +3,8 @@
 }
 .block-me img{
     width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 .block-me h3{
     font-size: 18px;
@@ -20,7 +22,8 @@
     border: none;
     font-size: 16px;
     font-weight: 400;
-    margin-top: 65px;
+    margin: 65px 0 40px;
+    transition: background-color 0.3s ease;
 }
 .btn-header:hover{
     background-color: #e02e4f;
@@ -67,6 +70,13 @@
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
+}
+.work-item, .gallery-item{
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.work-item:hover, .gallery-item:hover{
+    transform: scale(1.03);
 }
 
 .education{
@@ -215,6 +225,14 @@
     opacity: 0.702;
     font-size: 16px;
     margin: 0;
+}
+.contact-block a{
+    display: inline-block;
+    transition: color 0.3s ease, opacity 0.2s ease;
+}
+.contact-block a:hover{
+    color: white;
+    opacity: 1;
 }
 .contact-item .btn-header{
     display: block;

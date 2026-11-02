@@ -1,0 +1,33 @@
+footer{
+    padding: 60px 0;
+}
+.copyright-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #aaaaaa;
+}
+.copyright-block a{
+    color: #aaaaaa;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.red-i{
+    color: #ff2b4a;
+}
+.copyright-block a:hover{
+    transform: scale(1.1);
+    color: #ff2b4a;
+}
+.copyright-block p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #737373;
+    margin: 0;
+}
+.copyright-socials{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
