@@ -22,6 +22,9 @@
     font-weight: 400;
     margin-top: 65px;
 }
+.btn-header:hover{
+    background-color: #e02e4f;
+}
 
 .working{
     background-color: #f6f6f6;
@@ -171,8 +174,14 @@
     letter-spacing: 1px;
     margin-bottom: 30px;
 }
+.contact-item .message-title{
+    margin-bottom: 60px;
+}
 .form-group{
-    margin-bottom: 28px;
+    margin-bottom: 31px;
+}
+.form-group:last-of-type{
+    margin-bottom: 36px;
 }
 .form-group input, .form-group textarea{
     width: 100%;
@@ -184,6 +193,10 @@
     padding: 20px;
     outline: none;
     transition: border-color 0.3s ease;
+}
+.form-group textarea{
+    height: 200px;
+    resize: none;
 }
 .form-group input:focus, .form-group textarea:focus{
     border-color: white;
@@ -202,4 +215,17 @@
     opacity: 0.702;
     font-size: 16px;
     margin: 0;
+}
+.contact-item .btn-header{
+    display: block;
+    margin: 0 0 0 auto;
+}
+.first-linear-gradient{
+    background: linear-gradient(30deg, #6d637b 0%, #4c617c 100%);
+}
+.second-linear-gradient{
+    background: linear-gradient(30deg, #4c617c 0%, #6d637b 100%);
+}
+.third-linear-gradient{
+    background: linear-gradient(30deg, #4c617c 0%, #6d637b 50%, #67617a 100%);
 }
