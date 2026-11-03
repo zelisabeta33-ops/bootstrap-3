@@ -18,7 +18,6 @@ footer{
 }
 .copyright-block a:hover{
     transform: scale(1.1);
-    color: #ff2b4a;
 }
 .copyright-block p{
     font-size: 12px;

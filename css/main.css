@@ -70,6 +70,7 @@
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
+    margin: 0;
 }
 .work-item, .gallery-item{
     cursor: pointer;
@@ -86,8 +87,7 @@
     padding: 123px 0;
 }
 .block-education{
-    background-color: #59647d;
-    padding: 59px 40px;
+    padding: 59px 40px 29px;
     color: white;
 }
 .block-education h3{
@@ -131,12 +131,10 @@
 .works-red{
     background-color: #ff2742;
 }
-.gallery-row{
-    margin-top: 30px;
-}
 .gallery-block{
     text-align: center;
     padding: 113px 0;
+    overflow: hidden;
 }
 .gallery-block .p-subtitle{
     margin-bottom: 40px;
@@ -173,8 +171,13 @@
     padding: 125px 0;
 }
 .contact-item{
-    background-color: #59647d;
     padding: 65px 43px;
+}
+.contact > .first-linear-gradient{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
 }
 .contact-item h3{
     text-transform: uppercase;
